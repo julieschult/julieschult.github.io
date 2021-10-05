@@ -31,7 +31,7 @@ jobs:
         run: npm ci
       # Step 2: Add deploy to Github pages here! Hot tip - The solution is in the Readme
       - name: Deploy
-        uses: julieschult/github-pages-deploy-action@4.1.4
+        uses: julieschult/julieschult.github.io
         with:
           branch: gh-pages
           folder: dist
